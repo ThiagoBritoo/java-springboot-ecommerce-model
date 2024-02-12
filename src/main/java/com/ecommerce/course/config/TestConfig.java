@@ -1,4 +1,4 @@
-package com.shadowcorp.course.config;
+package com.ecommerce.course.config;
 
 import java.time.Instant;
 import java.util.Arrays;
@@ -8,15 +8,15 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-import com.shadowcorp.course.entities.Category;
-import com.shadowcorp.course.entities.Order;
-import com.shadowcorp.course.entities.Product;
-import com.shadowcorp.course.entities.User;
-import com.shadowcorp.course.entities.enums.OrderStatus;
-import com.shadowcorp.course.repositories.CategoryRepository;
-import com.shadowcorp.course.repositories.OrderRepository;
-import com.shadowcorp.course.repositories.ProductRepository;
-import com.shadowcorp.course.repositories.UserRepository;
+import com.ecommerce.course.entities.Category;
+import com.ecommerce.course.entities.Order;
+import com.ecommerce.course.entities.Product;
+import com.ecommerce.course.entities.User;
+import com.ecommerce.course.entities.enums.OrderStatus;
+import com.ecommerce.course.repositories.CategoryRepository;
+import com.ecommerce.course.repositories.OrderRepository;
+import com.ecommerce.course.repositories.ProductRepository;
+import com.ecommerce.course.repositories.UserRepository;
 
 @Configuration
 @Profile("test")

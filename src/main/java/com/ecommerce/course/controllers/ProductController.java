@@ -1,4 +1,4 @@
-package com.shadowcorp.course.resources;
+package com.ecommerce.course.controllers;
 
 import java.util.List;
 
@@ -9,26 +9,26 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.shadowcorp.course.entities.Category;
-import com.shadowcorp.course.services.CategoryService;
+import com.ecommerce.course.entities.Product;
+import com.ecommerce.course.services.ProductService;
 
 @RestController
-@RequestMapping(value = "/categories")
-public class CategoryResource {
+@RequestMapping(value = "/products")
+public class ProductController {
 	
 	@Autowired
-	private CategoryService service;
+	private ProductService service;
 	
 	@GetMapping
-	public ResponseEntity<List<Category>> findAll(){
+	public ResponseEntity<List<Product>> findAll(){
 		
-		List<Category> list = service.findAll();		
+		List<Product> list = service.findAll();		
 		return ResponseEntity.ok().body(list);
 	}
 	
 	@GetMapping(value = "/{id}")
-	public ResponseEntity<Category> findById(@PathVariable Long id){
-		Category obj = service.findById(id);
+	public ResponseEntity<Product> findById(@PathVariable Long id){
+		Product obj = service.findById(id);
 		return ResponseEntity.ok().body(obj);
 	}
 }

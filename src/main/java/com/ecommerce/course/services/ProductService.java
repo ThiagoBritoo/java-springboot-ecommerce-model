@@ -1,4 +1,4 @@
-package com.shadowcorp.course.services;
+package com.ecommerce.course.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.shadowcorp.course.entities.Product;
-import com.shadowcorp.course.repositories.ProductRepository;
+import com.ecommerce.course.entities.Product;
+import com.ecommerce.course.repositories.ProductRepository;
 
 @Service
 public class ProductService {

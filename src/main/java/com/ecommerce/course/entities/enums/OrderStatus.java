@@ -1,4 +1,4 @@
-package com.shadowcorp.course.entities.enums;
+package com.ecommerce.course.entities.enums;
 
 public enum OrderStatus {
 	

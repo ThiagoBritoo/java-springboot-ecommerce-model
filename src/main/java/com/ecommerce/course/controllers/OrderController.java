@@ -1,4 +1,4 @@
-package com.shadowcorp.course.resources;
+package com.ecommerce.course.controllers;
 
 import java.util.List;
 
@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.shadowcorp.course.entities.Order;
-import com.shadowcorp.course.services.OrderService;
+import com.ecommerce.course.entities.Order;
+import com.ecommerce.course.services.OrderService;
 
 @RestController
 @RequestMapping(value = "/orders")
-public class OrderResource {
+public class OrderController {
 	
 	@Autowired
 	private OrderService service;

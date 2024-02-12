@@ -1,4 +1,4 @@
-package com.shadowcorp.course.resources;
+package com.ecommerce.course.controllers;
 
 import java.util.List;
 
@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.shadowcorp.course.entities.User;
-import com.shadowcorp.course.services.UserService;
+import com.ecommerce.course.entities.User;
+import com.ecommerce.course.services.UserService;
 
 @RestController
 @RequestMapping(value = "/users")
-public class UserResource {
+public class UserController {
 	
 	@Autowired
 	private UserService service;

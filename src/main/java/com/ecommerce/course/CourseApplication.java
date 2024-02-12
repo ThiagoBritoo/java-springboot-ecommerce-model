@@ -1,4 +1,4 @@
-package com.shadowcorp.course;
+package com.ecommerce.course;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

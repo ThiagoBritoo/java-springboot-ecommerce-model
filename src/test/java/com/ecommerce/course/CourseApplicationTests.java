@@ -1,4 +1,4 @@
-package com.shadowcorp.course;
+package com.ecommerce.course;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
