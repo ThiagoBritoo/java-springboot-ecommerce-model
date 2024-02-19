@@ -4,11 +4,11 @@
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-green)
 ![H2 Database](https://img.shields.io/badge/Database-H2-orange)
 
-Este é um projeto de modelagem de entidades para um sistema de comércio eletrônico, desenvolvido em Java com Spring Boot.
+Este é um projeto de modelagem de entidades para um sistema de ecommerce, desenvolvido em Java com Spring Boot.
 
 ## Descrição
 
-O projeto apresenta as entidades essenciais para um sistema de comércio eletrônico, incluindo Usuário (User), Categoria (Category), Pedido (Order), status (OrderStatus) e Produto (Product). Ele implementa métodos básicos para recuperar entidades por ID e obter todas as entidades.
+O projeto apresenta as entidades essenciais para um sistema de ecommerce, incluindo Usuário (User), Categoria (Category), Pedido (Order), status (OrderStatus) e Produto (Product). Ele implementa métodos básicos para recuperar entidades por ID e obter todas as entidades.
 
 ## Estrutura do Projeto
 
